@@ -2,58 +2,7 @@
 <html>
 <head>
 	<title>Animated Buttons</title>
-	<style type="text/css">
-		/* Button General */
-		.btn {
-			 background-color: transparent;
-			 border: none;
-			 padding: 10px 20px;
-			 position: relative;
-			 overflow: hidden;
-			 z-index: 0;
-			 cursor: pointer;
-			 font-size: 16px;
-		}
-		 .btn:before {
-			 content: '';
-			 background-color: lightgrey;
-			 display: inline-block;
-			 position: absolute;
-			 z-index: 1;
-			 height: 100%;
-			 width: 70%;
-			 top: 0;
-			 left: 0;
-			 transform: skewX(-25deg) translateX(-10%);
-			 z-index: 0;
-			 transition: width 0.2s ease-out, transform 0.2s ease-out, background-color 0.2s ease-out;
-		}
-		 .btn:hover:before {
-			 width: 100%;
-			 transform: skewX(0deg);
-		}
-		/* Button Title */
-		 .btn-title {
-			 position: relative;
-			 z-index: 2;
-		}
-
-		/* Button Primary */
-		 .btn-primary {
-			 background-color: #ff9005;
-			 color: #eee;
-		}
-		 .btn-primary:before {
-			 background-color: rgba(255, 255, 255, 0.15);
-		}
-		 .btn-primary:hover {
-			 color: #ff9005;
-		}
-		 .btn-primary:hover:before {
-			 background-color: rgba(255, 255, 255, 0.9);
-		}
-		 
-	</style>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
