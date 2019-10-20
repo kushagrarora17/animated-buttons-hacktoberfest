@@ -1,11 +1,14 @@
 /* Button General */
-.button-heading
-{
-  overflow: hidden;
-  background-color: darkcyan;
-  position: static; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+header {
+    background-color: darkcyan;
+    color: #eee;
+    padding: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+header>h1{
+    margin: 0;
 }
 
 .btn {
