@@ -35,30 +35,30 @@
 
 /* Button Primary */
 .btn-primary {
-    background-color: #ff9005;
+    background-color: #0000FF;
     color: #eee;
 }
 .btn-primary:before {
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(205, 92, 92,0.15);
 }
 .btn-primary:hover {
-    color: #ff9005;
+    color: #0000FF;
 }
 .btn-primary:hover:before {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(205, 92, 92,0.9) ;
 }
 
 /* Button Secondary */
 .btn-secondary {
- background-color: #c0c0c0;
+ background-color: #0000FF;
  color: #fff;
 }
 .btn-secondary:before {
- background-color: rgba(255, 255, 255, 0.15);
+ background-color: rgba(205, 92, 92,0.9);
 }
 .btn-secondary:hover {
  color: #c0c0c0;
 }
 .btn-secondary:hover:before {
- background-color: rgba(255, 255, 255, 0.9);
+ background-color: rgba(205, 92, 92,0.9);
 }
