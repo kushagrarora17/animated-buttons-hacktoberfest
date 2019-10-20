@@ -62,3 +62,23 @@
 .btn-secondary:hover:before {
  background-color: rgba(255, 255, 255, 0.9);
 }
+
+/* Footer */
+.footer {
+    background-color: #333;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 12px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bbbbbb;
+}
+
+.footer a {
+    color: #c0c0c0;
+    text-decoration: none;
+    font-weight: bold;
+}
