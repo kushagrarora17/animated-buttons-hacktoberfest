@@ -2,6 +2,9 @@
 
 **Live Preview** https://frosty-goldstine-b1ef25.netlify.com/
 
+![](animated_button.gif)
+
+
 :star: Feel free to contribute and make new buttons. :star:
 
 ### How to contribute
