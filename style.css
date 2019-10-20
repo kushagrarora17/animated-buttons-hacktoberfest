@@ -64,7 +64,7 @@
 }
 
 /* Footer */
-.footer {
+footer {
     background-color: #333;
     text-align: center;
     position: fixed;
@@ -77,7 +77,7 @@
     color: #bbbbbb;
 }
 
-.footer a {
+footer a {
     color: #c0c0c0;
     text-decoration: none;
     font-weight: bold;
