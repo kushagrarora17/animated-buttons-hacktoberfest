@@ -110,3 +110,134 @@ footer a {
     text-decoration: none;
     font-weight: bold;
 }
+
+
+/*@import url(//fonts.googleapis.com/css?family=Roboto);*/
+
+.mooshy-red-round
+{
+	width: 140px;
+	height: 45px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: #000;
+	background-color: red;
+	border: none;
+	border-radius: 45px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+}
+.mooshy-red-round:hover 
+{
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+	transform: translateX(7px);
+}
+
+
+.mooshy-red-squared
+{
+	width: 140px;
+	height: 45px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: #000;
+	background-color: red;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+}
+
+ .mooshy-red-squared:hover
+{
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+	transform: translateX(7px);
+}
+.mooshy-red-green-squared
+{
+	width: 140px;
+	height: 45px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: #000;
+	background-color: red;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+}
+
+ .mooshy-red-green-squared:hover
+{
+	background-color: #2ED59D;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+	transform: translateX(7px);
+}
+
+.mooshy-red-green-round
+{
+	width: 140px;
+	height: 45px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: #000;
+	background-color: red;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+}
+
+ .mooshy-red-green-round:hover
+{
+	background-color: #2ED59D;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+	transform: translateX(7px);
+}
+
+.mooshy-white-raiseup
+{	
+	background-color: rgb(255,255,255);
+	width: 140px;
+	height: 45px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	color: #000;
+	background-color: red;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease 0s;
+	cursor: pointer;
+	outline: none;
+}
+
+ .mooshy-white-raiseup:hover
+{
+	background-color: #2ED59D;
+	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+	color: #fff;
+	transform: translateY(-7px);
+}
