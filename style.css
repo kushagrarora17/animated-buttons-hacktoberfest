@@ -75,6 +75,15 @@ header>h1{
  background-color: rgba(255, 255, 255, 0.9);
 }
 
+/* Button Industrial */
+   .btn-industrial {
+    background-color: #7282a2;
+    color: #fff;
+   }
+   .btn-industrial:hover {
+    color: #05aa9c;
+   }
+
 /* Footer */
 footer {
     background-color: #333;
