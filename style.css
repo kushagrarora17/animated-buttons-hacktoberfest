@@ -75,14 +75,21 @@ header>h1{
  background-color: rgba(255, 255, 255, 0.9);
 }
 
-/* Button Industrial */
-   .btn-industrial {
-    background-color: #7282a2;
-    color: #fff;
-   }
-   .btn-industrial:hover {
-    color: #05aa9c;
-   }
+/* Button Blue */
+.btn-blue {
+ background-color: #3399ff;
+ color: #fff;
+}
+.btn-blue:before {
+ background-color: rgba(255, 255, 255, 0.15);
+}
+.btn-blue:hover {
+ color: #3399ff;
+}
+.btn-blue:hover:before {
+ background-color: rgba(255, 255, 255, 0.9);
+}
+
 
 /* Footer */
 footer {
