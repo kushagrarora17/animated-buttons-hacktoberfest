@@ -7,7 +7,7 @@ header {
     text-align: center;
 }
 
-header>h1{
+header>h1 {
     margin: 0;
 }
 
@@ -21,6 +21,7 @@ header>h1{
     cursor: pointer;
     font-size: 16px;
 }
+
 .btn:before {
     content: '';
     background-color: lightgrey;
@@ -35,10 +36,13 @@ header>h1{
     z-index: 0;
     transition: width 0.2s ease-out, transform 0.2s ease-out, background-color 0.2s ease-out;
 }
+
 .btn:hover:before {
     width: 100%;
     transform: skewX(0deg);
 }
+
+
 /* Button Title */
 .btn-title {
     position: relative;
@@ -50,44 +54,73 @@ header>h1{
     background-color: #ff9005;
     color: #eee;
 }
+
 .btn-primary:before {
     background-color: rgba(255, 255, 255, 0.15);
 }
+
 .btn-primary:hover {
     color: #ff9005;
 }
+
 .btn-primary:hover:before {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
 /* Button Secondary */
 .btn-secondary {
- background-color: #c0c0c0;
- color: #fff;
+    background-color: #c0c0c0;
+    color: #fff;
 }
+
 .btn-secondary:before {
- background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15);
 }
+
 .btn-secondary:hover {
- color: #c0c0c0;
+    color: #c0c0c0;
 }
+
 .btn-secondary:hover:before {
- background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 /* Button Blue */
 .btn-blue {
- background-color: #3399ff;
- color: #fff;
+    background-color: #3399ff;
+    color: #fff;
 }
+
 .btn-blue:before {
- background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15);
 }
+
 .btn-blue:hover {
- color: #3399ff;
+    color: #3399ff;
 }
+
 .btn-blue:hover:before {
- background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Button Green */
+.btn-green {
+    background-color: #31D843;
+    color: #fff;
+}
+
+.btn-green:before {
+    background-color: rgba(255, 255, 255, 0.15);
+
+}
+
+.btn-green:hover {
+    color: #31D843;
+}
+
+
+.btn-green:hover:before {
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 
