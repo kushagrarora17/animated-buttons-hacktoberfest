@@ -123,6 +123,24 @@ header>h1 {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
+/* Button Pink */
+.btn-pink {
+    background-color: #f35588;
+    color: #fff;
+}
+
+.btn-pink:before {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.btn-pink:hover {
+    color: #3399ff;
+}
+
+.btn-pink:hover:before {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
 
 /* Footer */
 footer {
