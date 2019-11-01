@@ -123,6 +123,24 @@ header>h1 {
     background-color: rgba(255, 255, 255, 0.9);
 }
 
+/* Button Orchid */
+.btn-orchid {
+    background-color: orchid;
+    color: #fff;
+}
+
+.btn-orchid:before {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.btn-orchid:hover {
+    color: orchid;
+}
+
+
+.btn-orchid:hover:before {
+    background-color: rgba(255, 255, 255, 0.9);
+}
 
 /* Footer */
 footer {
